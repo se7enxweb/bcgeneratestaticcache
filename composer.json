@@ -1,11 +1,17 @@
 {
-    "name": "brookinsconsulting/bcgeneratestaticcache",
+    "name": "se7enxweb/bcgeneratestaticcache",
     "description": "eZ Publish Legacy extension which provides a simple solution to regenerate static cache via command line or cronjob. Great for static html websites!",
     "type": "ezpublish-legacy-extension",
     "keywords": [ "eZ Publish", "static", "html", "generator", "script", "command", "php" ],
-    "homepage": "https://bitbucket.org/brookinsconsulting/bcgeneratestaticcache",
+    "homepage": "https://bitbucket.org/se7enxweb/bcgeneratestaticcache",
     "license": "GPL-2.0+",
     "authors": [
+        {
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        },
         {
             "name" : "Brookins Consulting",
             "homepage": "http://brookinsconsulting.com",
@@ -16,7 +22,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "se7enxweb/ezpublish-legacy-installer": "*"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "bcgeneratestaticcache"
